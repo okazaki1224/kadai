@@ -35,7 +35,6 @@ main{
   left: 0;
   background-color: #FF9A4B;
   color: #fff;
-  
 }
 
 .visual1{
@@ -97,4 +96,21 @@ footer {
   width: 100%;
   height: 50px;
   background-color: #AAAAAA;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .box {
+    width: 90%;
+    margin:0 auto 20px auto;
+  }
+  
+  .box:last-child{
+    margin:0 auto;
+  }
 }
